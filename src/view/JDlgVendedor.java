@@ -355,7 +355,8 @@ public class JDlgVendedor extends javax.swing.JDialog {
 
     private void jBtnPesquisaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisaActionPerformed
         // TODO add your handling code here:
-        
+        JDlgVendedorPesquisar jDlgVendedorPesquisar = new JDlgVendedorPesquisar(null, true);
+        jDlgVendedorPesquisar.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisaActionPerformed
 
     private void jFmtCPFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFmtCPFActionPerformed

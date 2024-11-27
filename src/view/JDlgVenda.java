@@ -324,7 +324,8 @@ public class JDlgVenda extends javax.swing.JDialog {
 
     private void jBtnPesquisaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisaActionPerformed
         // TODO add your handling code here:
-        
+        JDlgVendaPesquisar jDlgVendaPesquisar = new JDlgVendaPesquisar(null, true);
+        jDlgVendaPesquisar.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisaActionPerformed
 
     private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
